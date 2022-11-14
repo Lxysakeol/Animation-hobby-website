@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>留言</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/contact.css">
+</head>
+
+<body >
+
+<section class="contact-section">
+	<p style="font-size:30px; color:#333; text-align:center;">可以把您的建议留给我们</p>
+    <div class="contact">
+        <form action="mail.php" id="contact-form" method="POST" >
+            <input type="text" name="name" id="name" required placeholder="您的称呼*">
+            <input type="text" name="WeChat" id="Phone" required placeholder="您的联系方式（邮箱）*">
+            
+            <div class="send-btn-div">
+                <textarea id="Article" name="Article" required placeholder="您的意见*"></textarea>
+                <button type="submit" class="send-btn"><img src="img/fasong.png" alt="icon"></button>
+            </div>
+        </form><br>
+    </div>
+</section>
+</body>
+
+</html>

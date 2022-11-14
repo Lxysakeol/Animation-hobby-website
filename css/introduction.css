@@ -1,0 +1,295 @@
+@charset "utf-8";
+/*公共样式*/
+body{
+	background:#f3f3f3;
+	}
+.s_1{
+	position:relative;
+	}
+.s_2{
+	width:100%;
+	height:30px;
+	background:#f3f3f3;
+	}
+.m-box{
+	-moz-box-sizing: border-box;/*火狐流浪器*/
+	-webkit-box-sizing:border-box;/*webkit内核浏览器*/
+	box-sizing:border-box; 
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	padding:10px 10px;
+	background:#fff;
+	border-radius:5px;
+	}
+.content-box{
+	width:1000px;
+	margin:0 auto;
+	}
+.m-title{
+	font-size:16px;
+	font-weight:600;
+	margin:0 0 8px 8px;
+	}
+.content-box .content-right-box .m-box .top-wrap{
+	width:250px;
+	overflow:hidden;
+	}
+/*公共样式*/
+/*顶部图片介绍开始*/
+nav{
+	margin:0;
+	/*background-image:url(../img/guimie.png);
+	background-size: cover;*/
+	}
+nav::before{
+	content:"";
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-image:url(../img/guimie.png);
+	background-size: cover;
+	filter:blur(10px);
+	z-index:-1;
+	}
+
+
+.header-box{
+	height:380px;
+	overflow:hidden;
+	position:relative;
+	}
+.content-box .in-box .img-box{
+	box-sizing:border-box;
+	width:233px;
+	height:308px;
+	border-radius:5px;
+	border:6px solid #fff;
+	overflow:hidden;
+	}
+.content-box .in-box{
+	margin:46px auto;
+	}
+.content-box .in-box .img-box img{
+	width:100%;
+	height:100%;
+	}
+.content-box .in-box div{
+	float:left;
+	}	
+.content-box .in-box .right-box{
+	box-sizing:border-box;
+	color:#fff;
+	width:750px;
+	height:308px;
+	padding:0 15px;
+	}
+.content-box .in-box .right-box .title{
+	font-size:16px;
+	font-weight:720;
+	}
+.content-box .in-box .right-box p{
+	margin:0;
+	}
+.content-box .in-box .right-box span{
+	font-weight:600;
+	}	
+.content-box .in-box .right-box .top-box{
+	margin:10px 0;
+	}
+.content-box .in-box .right-box .top-box p{
+	text-indent:32px;
+}
+.content-box .in-box .right-box .bottom-box p{
+	text-indent:32px;
+	}
+/*顶部图片介绍结束*/
+/*目录开始*/
+.media{
+	position:relative;
+	}
+
+.directory-box{
+	padding:0;
+	width:720px;
+	height:60px;
+	text-align:center;
+	line-height:60px;
+	margin:0;
+	}	
+.directory-box li{
+	float:left;
+	display:block;
+	width:208px;
+	height:60px;
+	}
+.directory-box .first-box{
+	width:70px;
+	font-size:16px;
+	font-weight:600;
+	}
+.directory-box li a{
+	color:#69F;
+	}
+/*目录结束*/
+/*右侧介绍开始*/
+/*声优列表开始*/
+.content-box .content-right-box{
+	position:absolute;
+	right:0;
+	top:0;
+	width:270px;
+	}
+	
+.content-box .CV-box{
+	overflow:hidden;
+	}
+
+.content-box .content-right-box .m-box .top-wrap>p{
+	width:250px;
+	margin:5px 6px;
+	}
+
+
+.content-box .m-box .more{
+	cursor:pointer;
+	font-size:10px;
+	color:#69F;
+	text-align:center;
+	margin:25px 0;
+	}
+/*声优列表结束*/
+/*STAFF列表开始*/
+.STAFF-box{
+	margin-top:30px;
+	}	
+/*STAFF列表结束*/
+/*故事介绍开始*/
+.text-introuduce{
+	width:720px;
+	
+	margin:30px 0;
+   }
+.text-introuduce .text-content{
+	text-indent:32px;
+	line-height:30px;
+	text-align:justify;
+	margin:8px;
+	}
+/*故事介绍结束*/
+/*作者介绍开始*/
+.text-introuduce .author{
+	text-indent:0;
+	}
+/*作者介绍结束*/
+/*角色介绍开始*/
+.content-box .roles-box{
+	width:720px;
+	}
+	
+.content-box .roles-box .roles-detail .major-roles-title{
+	text-align:center;
+	width:630px;
+	margin-left:-15px;
+	margin-bottom:15px;
+	}
+.content-box .roles-box .roles-detail{
+	margin:8px;
+	}
+.content-box .roles-box .roles-detail .major-roles-detail .left-wrap{
+	width:200px;
+	height:200px;
+	border:1px solid #ccc;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	}
+.content-box .roles-box .roles-detail .major-roles-detail .left-wrap img{
+	width:100%;
+	height:100%;
+	}
+.content-box .roles-box .roles-detail .major-roles-detail{
+	position:relative;
+	margin-bottom:30px;
+	
+	}
+.content-box .roles-box .roles-detail .major-roles-detail .right-wrap{
+	padding-left:5px;
+	position:absolute;
+	left:210px;
+	top:0;
+	font-size:13px;
+	}
+.content-box .roles-box .roles-detail .major-roles-detail .right-wrap .text-wrap{
+	text-align:justify;
+	border-bottom:1px solid #E9E9E9;
+	}
+/*角色介绍结束*/	
+.tv-box{
+	margin-top:30px;
+	}
+.tv-box .top-wrap a{
+	
+	display:block;
+	float:left;
+	width:50px;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	background:#F4F5F7;
+	border-radius:5px;
+	margin:6.25px;
+	}
+.tv-box .top-wrap a:hover{
+	color:#6CF;
+	}
+.tv-box .tv-box-title .tv-box-j:hover{
+	color:#6CF;
+	}
+.tv-box .tv-box-title>div{
+	float:left;
+	}
+.tv-box .tv-box-title .tv-box-j{
+	cursor:pointer;
+	width:70px;
+	text-align:center;
+	font-size:10px;
+	margin-top:3px;
+	}
+.tv-box .tv-box-title{
+	width:260px;
+	}
+.tv-box .tv-box-content{
+	position:absolute;
+	left:10px;
+	top:40px;
+	}
+.tv-box{
+	height:260px;
+	position:relative;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

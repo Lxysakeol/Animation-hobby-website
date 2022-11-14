@@ -1,0 +1,533 @@
+@charset "utf-8";
+/*公共样式*/
+body{
+	background:#f3f3f3;
+	}
+.content-box{
+	width:1300px;
+	margin:0 auto;
+	}
+
+.m-title{
+	width:100%;
+	/* height: ;
+	line-height: ; */
+	text-align:center;
+	font-size:30px;
+	font-weight:400;
+	background: url(../img/redline.png) no-repeat center;
+	margin:30px auto;
+	}
+
+.m-list a{
+	display:block;
+	float:left;
+	border-radius:10px;
+	box-shadow:0 0 10px #ccc;
+	overflow:hidden;
+	}
+.m-list a p{
+	text-align:center;
+	margin:0;
+	padding-top:2px;
+	}
+.m-list a img{
+	-webkit-filter:opacity(80%);
+	filter:opacity(90%);
+	}
+.m-list a:hover img{
+	 -webkit-filter:opacity(100%);
+	 filter:opacity(100%);
+	}
+.m-list a:hover p{
+	color:#33F;
+	}
+/*公共样式*/
+
+/*logo 搜索 用户信息开始*/
+.h-top{
+	height:88px;
+	position:relative;
+	}
+	
+.h-top .logo{
+	width:200px;
+	height:58px;
+	display:block;
+	position:absolute;
+	left:0;
+	top:15px;
+	}
+
+.h-top .search{
+	width:330px;
+	height:36px;
+	border:1px #ccc solid;
+	border-radius:18px;
+	background:#fff;
+	position:absolute;
+	left:50%;
+	margin-left:-165px;
+	top:26px;
+	overflow:hidden;
+	}
+.h-top .search .inp-l{
+	width:268px;
+	height:36px;
+	border:none;
+	padding:0 10px;
+	}
+.h-top .search .inp-r{
+	cursor:pointer;
+	width:60px ;
+	height:36px;
+	border:none;
+	border-radius:18px;
+	background:#acce22;
+	padding:0;
+	}
+
+.h-top .user{
+	width:180px;
+	height:28px;
+	line-height:28px;
+	position:absolute;
+	right:0;
+	top:30px;
+	}
+.h-top .user a{
+	display:inline-block;
+	width:76px;
+	height:28px;
+	text-align:center;
+	font-size:16px;
+	color:#000;
+	}
+.search .icon-Magnifier{
+	color:white;
+	font-size:24px;
+	position:absolute;
+	top:26p;
+	left:50%;
+	margin-left:125px;
+	cursor:pointer;
+	}
+/*logo 搜索 用户信息结束*/
+
+/*导航栏开始*/
+nav{
+	background:#363636;
+	}
+nav .nav-box{
+	height:44px;
+	line-height:44px;
+	text-align:center;
+	}
+.nav-box .nav-l{
+	width:800px;
+	}
+.nav-box .nav-l a{
+	display:block;
+	width:80px;
+	height:44px;
+	float:left;
+	color:#fff;
+	}
+.nav-box .nav-r{
+	width:240px;
+	}
+.nav-box .nav-r a{
+	display:block;
+	width:80px;
+	height:44px;
+	float:right;
+	color:#fff;
+	font-size:16px;
+	/*padding:0 10px;*/
+	}
+.nav-box .nav-l a:hover{
+	font-size:16px;
+	color:#00aeff;
+	}
+.nav-box .nav-r a:hover{
+	background:#ca3333;
+	}
+/*导航栏结束*/
+
+/*轮播图开始*/
+.banner{
+	width:100%;
+	margin:0 auto;
+	}
+.banner-wrap{
+	height:600px;
+	/*width:1300px;*/
+	min-width:800px;
+	max-width:1300px;
+	overflow:hidden;
+	white-space:nowrap;/*永不换行*/
+	position:relative;
+	margin:0 auto;
+	}
+.banner-wrap .banner-img{
+	padding-left:0px;
+	height:100%;
+	width:200%;
+	position:absolute;
+	top:0;
+	left:0;
+	}
+
+.banner-wrap .banner-img li{
+	float:left;
+	height:100%;
+	width:50%;
+	margin:0 auto;
+	/*position:absolute;*/
+	}
+.banner-wrap .banner-img li img{
+	width:100%;
+	height:100%;
+	}
+.left_button{
+	cursor:pointer;
+	height:71px;
+	width:71px;
+	top:43%;
+	left:10px;
+	position:absolute;
+	display:none;
+	}
+.left_button img{
+	width:100%;
+	height:100%;
+	}
+.right_button{
+	cursor:pointer;
+	height:71px;
+	width:71px;
+	top:43%;
+	right:10px;
+	position:absolute;
+	display:none;
+	}
+.right_button img{
+	width:100%;
+	height:100%;
+	}
+.banner-wrap .banner-dian{
+	width:150px;
+	height:20px;
+	position:absolute;
+	bottom:0;
+	left:50%;
+	margin-left:-75px;
+	}
+.banner-wrap .banner-dian li{
+	background:#fff;
+	width:10px;
+	height:10px;
+	border-radius:50%;
+	float:left;
+	margin:5px 5px;
+	cursor:pointer;
+	}
+.banner-wrap .banner-dian .dian-switch{
+	background:#4084E5;
+	}
+/*轮播图结束*/
+
+/*远程培训班开始*/
+.information-box{
+	height:160px;
+	background:#fff;
+	padding-top:22px;
+	}
+.information-box a{
+	transition:300ms;
+	width:210px;
+	height:114px;
+	display:block;
+	float:left;
+	background: no-repeat 0 0/100% 100%;
+	margin:0 25px;
+	border-radius:10px;
+	color:#fff;
+	font-size:24px;
+	font-weight:700;
+	text-align:center;
+	line-height:114px;
+	overflow:hidden;
+	}
+.information-box .tu1{
+	background-image:url(../img/back1.jpg)
+	}
+.information-box .tu2{
+	background-image:url(../img/back2%20.jpg)
+	}
+.information-box .tu3{
+	background-image:url(../img/back3.jpg)
+	}
+.information-box .tu4{
+	background-image:url(../img/back4.jpg)
+	}
+.information-box .tu5{
+	background-image:url(../img/back5.jpg)
+	}
+.information-box a span{
+	display:block;
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.3);
+	text-shadow:4px 2px 5px #000;
+	}
+.information-box a:hover{
+	background-size:110% 110%;
+	}
+/*远程培训班结束*/
+
+/*新番推荐*/
+.zx-box a{
+	width:270px;
+	height:360px;
+	margin:20px 27.5px;
+	}
+.zx-box a img{
+	width:100%;
+	height:92%;
+	}
+.zx-box a>p{
+	margin-top:2px;
+	font-size:16px;
+	}
+.back-box{
+	background:#faf6fb;
+	}
+
+/*新番推荐*/
+
+/*热门动漫开始*/
+.introduction-box{
+	height:440px;
+	position:relative;
+	}
+.rm-box{
+	height:230px;
+	position:absolute;
+	left:0;
+	}
+.rm-box a{
+	width:210px;
+	height:300px;
+	margin:20px 25px;
+	}
+.rm-box a img{
+	width:100%;
+	height:92%;
+	}
+.rm-box a>p{
+	margin-top:0px;
+	font-size:14px;
+	}
+.rm-nav p{
+	display:block;
+	width:80px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	float:left;
+	margin:0 30px;
+	cursor:pointer;
+	border-radius:10px;
+	}
+.rm-nav .rm-first{
+	background:linear-gradient(90deg,#0078ff,#8138db);
+	color:#fff;
+	}
+
+/*热门动漫结束*/
+
+/*人气角色简介开始*/
+.js-box{
+	width:1300px;
+	height:320px;
+	position:absolute;
+	top:150px;
+	left:0;
+	}
+.js-box a{
+	display:block;
+	width:270px;
+	height:310px;
+	background:#e7e7e7;
+	float:left;
+	margin:0 27px;
+	padding-top:40px;
+	text-align:center;
+	}
+.js-box a img{
+	width:150px;
+	height:150px;
+	border-radius:50%;
+	}
+.js-box a .p1{
+	font-size:20px;
+	line-height:40px;
+	padding-top:10px;
+	margin:0;
+	}
+.js-box a .p2{
+	color:#6b6b6b;
+	padding:0 10px;
+	line-height:18px;
+	margin-bottom:0;
+	}
+.roles-box{
+	padding-top:20px;
+	padding-bottom:40px;
+	position:relative;
+	height:506px;
+	}
+.roles-dian{
+	width:110px;
+	height:20px;
+	position:absolute;
+	bottom:5px;;
+	left:50%;
+	margin-left:-50px;
+	}
+.roles-dian p{
+	width:20px;
+	height:20px;
+	border-radius:10px;
+	background:#ccc;
+	float:left;
+	margin:0 5px;
+	cursor:pointer;
+	}
+.roles-dian .long_dian{
+	width:40px;
+	background:blue;
+	}
+#roles1{
+	z-index:3;
+	}
+/*人气角色简介结束*/
+
+/*宣传列表开始*/
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 60px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background: #e7d9eb;
+    width: 35px;
+    height: 8px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+}
+
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #191b18;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #191b18;
+    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
+}
+.light-bg {
+    background-color:#faf6fb;
+}
+.section {
+    padding: 80px 0;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.section-title small {
+    color: #8e908e;
+}
+
+/*宣传列表结束*/
+
+/*页面尾部开始*/
+footer{
+	padding-top:40px;
+	}
+footer p{
+	color:#FFFFFF;
+	padding:10px 0;
+	}
+footer .f-p1 b{
+	display:inline-block;
+	width:120px;
+	text-align:center;
+	margin:0 20px;
+	}
+footer .f-p1 span{
+	margin:0 10px;
+	}
+	
+footer .f-p2 b{
+	display:inline-block;
+	width:120px;
+	text-align:center;
+	margin:0 20px;
+	}
+footer .f-p2 a{
+	margin:0 5px;
+	}
+footer .f-p2 a img{
+	height:30px;
+	width:70px;
+	}
+footer .f-p3{
+	padding-left:170px;
+	padding-right:100px;
+	}
+
+footer .f-p3 a{
+	margin-right:15px;
+	color:#FFFFFF;
+	}
+footer .f-p3{
+	
+	margin:0;
+	}
+footer .f-p2{
+	margin-bottom:0px;
+	}
+footer .f-p3 a:hover{
+	text-decoration:underline;
+	}
+/*页面尾部结束*/
+
+/*快速跳转开始*/
+.jump-box{
+	display:none;
+	width:66px;
+	text-align:center;
+	position:fixed;
+	top:150px;
+	left:50%;
+	margin-left:-760px;
+	}
+.jump-box h4{
+	color:#000;
+	font-size:14px;
+	margin-bottom:10px;
+	}
+.jump-box a{
+	background:#fff;
+	display:block;
+	width:66px;
+	height:66px;
+	border-radius:50%;
+	box-shadow:0 0 8px #ccc;
+	margin-bottom:16px;
+	padding-top:12px;
+	}
+/*快速跳转结束*/
+
+

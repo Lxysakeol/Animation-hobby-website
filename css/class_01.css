@@ -1,0 +1,276 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:#f3f3f3;
+	}
+.content-box{
+	width:1300px;
+	margin:0 auto;
+	}
+/*logo 搜索 用户信息开始*/
+.h-top{
+	height:88px;
+	position:relative;
+	}
+	
+.h-top .logo{
+	width:214px;
+	height:58px;
+	display:block;
+	position:absolute;
+	left:0;
+	top:15px;
+	}
+
+.h-top .search{
+	width:330px;
+	height:36px;
+	border:1px #ccc solid;
+	border-radius:18px;
+	background:#fff;
+	position:absolute;
+	left:50%;
+	margin-left:-165px;
+	top:26px;
+	overflow:hidden;
+	}
+.h-top .search .inp-l{
+	width:268px;
+	height:36px;
+	border:none;
+	padding:0 10px;
+	}
+.h-top .search .inp-r{
+	cursor:pointer;
+	width:60px ;
+	height:36px;
+	border:none;
+	border-radius:18px;
+	background:#acce22;
+	padding:0;
+	}
+
+.h-top .user{
+	width:180px;
+	height:28px;
+	line-height:28px;
+	position:absolute;
+	right:0;
+	top:30px;
+	}
+.h-top .user a{
+	display:inline-block;
+	width:76px;
+	height:28px;
+	text-align:center;
+	font-size:16px;
+	color:#000;
+	}
+.search .icon-Magnifier{
+	color:white;
+	font-size:24px;
+	position:absolute;
+	top:26p;
+	left:50%;
+	margin-left:125px;
+	cursor:pointer;
+	}
+/*logo 搜索 用户信息结束*/
+
+/*导航栏开始*/
+nav{
+	background:#363636;
+	}
+nav .nav-box{
+	height:44px;
+	line-height:44px;
+	text-align:center;
+	}
+.nav-box .nav-l{
+	width:800px;
+	}
+.nav-box .nav-l a{
+	display:block;
+	width:80px;
+	height:44px;
+	float:left;
+	color:#fff;
+	}
+.nav-box .nav-r{
+	width:240px;
+	}
+.nav-box .nav-r a{
+	display:block;
+	width:80px;
+	height:44px;
+	float:right;
+	color:#fff;
+	font-size:16px;
+	
+	}
+.nav-box .nav-l a:hover{
+	font-size:16px;
+	color:#00aeff;
+	}
+.nav-box .nav-r a:hover{
+	background:#ca3333;
+	}
+nav{
+	margin-bottom:50px;
+	}
+/*导航栏结束*/
+/*番剧列表开始*/
+.content-box{
+	position:relative;
+	}
+.content-box .nav-left{
+	max-width:900px;
+	min-width:850px;
+	height:1270px;
+	display:-webkit-flex;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	align-content:space-between;
+	}
+.content-box .nav-left .anime-box{
+	display:block;
+	height:304px;
+	width:160px;
+	
+	}
+.content-box .nav-left .anime-box img{
+	width:100%;
+	height:214px;
+	border-radius:5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	}
+.nav-left .anime-box .p1{
+	width:100%;
+	height:22px;
+	margin:10px 0 0 0;
+	}
+.nav-left .anime-box .p2{
+	width:100%;
+	height:18px;
+	margin:0;
+	font-size:9px;
+	color:#99A2AA;
+	}
+.nav-left .anime-box .p1:hover{
+	color:#84A1DE;
+	}
+/*番剧列表结束*/
+/*番剧索引开始*/
+.nav-right{
+	width:260px;
+	height:854px;
+	position:absolute;
+	left:950px;
+	top:0px;
+	}
+.nav-right .filter-title{
+	font-size:20px;
+	height:44px;
+	width:260px;
+	}
+.nav-right .filter-list{
+	width:260px;
+	height:774px;
+	}
+.nav-right .filter-list .filter-block{
+	margin-bottom:16px;
+	width:260px;
+	height:30px;
+	}
+.nav-right .filter-list .filter-block .filter-name{
+	color:#99a2aa;
+	width:52px;
+	height:30px;
+	}
+.nav-right .filter-list .filter-block .filter-wrapper{
+	width:208px;
+	height:30px;
+	}
+.nav-right .filter-list .filter-block .filter-wrapper a{
+	display:block;
+	float:left;
+	width:52px;
+	height:30px;
+	}
+.nav-right .filter-list .filter-block div{
+	float:left;
+	}
+.first-wrap{
+	color:#84A1DE;
+	}
+.first-wrap:hover{
+	color:#84A1DE;
+	}
+.nav-right .filter-list .month{
+	width:260px;
+	height:60px;
+	}
+.nav-right .filter-list .years{
+	width:260px;
+	height:90px;
+	}
+.nav-right .filter-list .filter-block .filter-wrapper .filter-item{
+	width:84px;
+	margin-right:16px;
+	}
+
+.nav-right .filter-list .selection{
+	width:260px;
+	height:200px;
+	}
+
+.yeshu-box{
+	width:400px;
+	height:30px;
+	margin-bottom:30px;
+	}
+.yeshu-box a{
+	display:block;
+	float:left;
+	width:32px;
+	height:32px;
+	border-radius:5px;
+	border:#99A2AA solid 1px;
+	line-height:32px;
+	text-align:center;
+	margin-right:10px;
+	}
+.yeshu-box .yeshu:hover{
+	background:#00A1D6;
+	color:#fff;
+	}
+.yeshu-box .dian{
+	border:none;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*番剧索引结束*/
